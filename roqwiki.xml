@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- roqwiki settings -->
+<parameters>
+  <!-- allow_edit=0 to remove the "Edit this Page" link -->
+  <!-- allow_edit=1 to add the "Edit this Page" link -->
+  <allow_edit>1</allow_edit>
+  <!-- "Deploy Page" only shown if allow_edit=1 -->
+  <deploy_location>../</deploy_location>
+  <!-- Exclude files from group deploy: exclude_files=file1,file2,...filex -->
+  <exclude_files>wiki.html</exclude_files>
+</parameters>

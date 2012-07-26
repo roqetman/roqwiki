@@ -1,0 +1,7 @@
+DirectoryIndex index.cgi
+Options -MultiViews
+RewriteEngine on
+RewriteBase /test
+RewriteRule ^@[a-z]+/([A-Za-z0-9-]+)$ index.cgi [L]
+RewriteRule ^([A-Za-z0-9-]+)$ index.cgi [L]
+RewriteRule ^([A-Za-z0-9-]+)\.html$ - [L]

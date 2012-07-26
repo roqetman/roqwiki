@@ -1,0 +1,19 @@
+body { 
+   margin: 1.5em 2em 1.5em 1.5em; 
+   font-family: Georgia, sans-serif; 
+}
+
+h1, h2 { 
+   font-family: Tahoma, "Gill Sans", sans-serif; 
+   font-weight: normal; 
+}
+
+address { 
+   font-size: small; 
+   padding-top: 0.35em; 
+   border-top: 2px solid #069; 
+   font-style: normal; 
+}
+
+pre { margin-left: 1.5em; }
+
