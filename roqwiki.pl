@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 ###!C:/perl/bin/perl.exe
 # roqwiki;
-# Last updated: 2010-04-01
-$version = '2.0';
-$copyyear = '2010';
+# Last updated: 2012-07-26
+$version = '2.1';
+$copyyear = '2012';
 
 =head1 RoqWiki
 
@@ -14,7 +14,7 @@ $copyyear = '2010';
 
 =head2 Install
 
-  0. Download RoqWiki: <http://www.roqet.org/software.html>
+  0. Download RoqWiki: <https://github.com/roqetman/roqwiki>
   1. Create a new script-writable directory on your server
   2. Upload roqwiki.pl to your server and rename it to index.cgi
   3. Change permissions on index.cgi to 755
@@ -82,6 +82,7 @@ $copyyear = '2010';
 =head1 To Do
 
   Add more meta pages:
+    switch to using markdown
     grep (search)
     help (can build into about perhaps)
 
@@ -98,6 +99,7 @@ $copyyear = '2010';
   2009-12-23 :: 1.8 :: Added ability to deploy a single page to another location.
   2009-12-23 :: 1.9 :: Changed parameter file to be an xml file and to deploy multiple files.
   2010-04-01 :: 2.0 :: Modified to have a metadata page instead of a generated about page.
+  2012-07-26 :: 2.1 :: Migrated to github prior to proposed markdown coversion.
 
 =head1 Author
 
@@ -105,7 +107,7 @@ $copyyear = '2010';
 
 =head1 Copyright
 
-  RoqWiki Perl script copyright 2010 roqet <http://www.roqet.org>.
+  RoqWiki Perl script copyright 2012 roqet <http://www.roqet.org>.
   RoqWiki can be distributed and modified under the terms of the
   GNU General Public License: http://www.gnu.org/copyleft/gpl.html
 
