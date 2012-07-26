@@ -375,7 +375,7 @@ elsif ($key eq 'about') {
   print "Content-type:text/html\n\n";
   undef (@body2);
   push (@body2, '<h1>About RoqWiki</h1>' . "\n");
-  push (@body2, '<p>This is the <a href="http://roqet.org/roqwiki.html">RoqWiki</a> wiki application. The latest version is available <a href="http://www.roqet.org/software.html">here</a></p>' . "\n");
+  push (@body2, '<p>This is the <a href="http://roqet.org/roqwiki.html">RoqWiki</a> wiki application. The latest version is available <a href="https://github.com/roqetman/roqwiki">here</a></p>' . "\n");
   push (@body2, '<li />Wiki Metadata' . "\n");
   push (@body2, '<p><a href="./index.cgi?doclist">View all Wiki Pages</a></p>' . "\n");
   push (@body2, '<p><a href="./index.cgi?buildall">Rebuild ALL Wiki Pages</a></p>' . "\n");
@@ -492,7 +492,7 @@ sub getnotes {
     '- examples are in []s' . "\n" .
     '- this document is formatted in Roqet Document Format which can easily be' . "\n" .
     '- converted to html using RoqWiki which is available here:' . "\n" .
-    '- http://www.roqet.org/software.html' . "\n" .
+    '- https://github.com/roqetman/roqwiki' . "\n" .
     '- The Roqet Document Format is as follows:' . "\n" .
     '- - (comment)' . "\n" .
     '- @ heading (heading)' . "\n" .
